@@ -13,8 +13,6 @@ for (let i = 0; i < data.length; i++){
     score.className = 'score'
     symbol.className ='symbol'
 
-    // score.innerHTML = `${data[i].score} /100`
-
     //Things to add to symbol
     const image = document.createElement('img')
     image.src = data[i].icon

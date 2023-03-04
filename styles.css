@@ -22,7 +22,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
     border-radius:15px;
-    box-shadow: 11px 11px 44px -14px hsl(222, 78%, 82%);;
+    box-shadow: 11px 11px 44px -14px hsl(222, 78%, 82%);
 }
 
 p{
@@ -84,6 +84,10 @@ p{
     border: none;
 }
 
+#summary button:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 #data{
     display: flex;
     flex-direction: column;
@@ -95,12 +99,6 @@ p{
     justify-content: space-between;
     border-radius: 10px;
     padding: 10px;
-    /* box-shadow: 
-    16px 16px 0 0px black, 
-    -16px -16px 0 -15px black,
-    -16px 16px 0 -15px black, 
-    16px -1px  black;
-    position: relative; */
 }
 
 .symbol, .score{
@@ -167,6 +165,6 @@ p{
     width: 100vw;
   }
   #result{
-    padding-top: 200px;
+    padding-top: 300px;
   }
 }
